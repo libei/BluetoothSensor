@@ -8,7 +8,7 @@
         <servlet-name>BluetoothSensor</servlet-name>
         <display-name>BluetoothSensor</display-name>
         <description>no description</description>
-        <servlet-class>BluetoothSensor</servlet-class>
+        <servlet-class>edu.ou.ece.cartracking.bluetoothsensor.servlet.SensorServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>BluetoothSensor</servlet-name>
