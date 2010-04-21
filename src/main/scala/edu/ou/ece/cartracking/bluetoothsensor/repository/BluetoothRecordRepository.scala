@@ -1,14 +1,13 @@
 package edu.ou.ece.cartracking.bluetoothsensor.repository
 
-import edu.ou.ece.cartracking.bluetoothsensor.domain.BluetoothRecord
 import java.sql._
 
-object BluetoothRecordRepository {
+class BluetoothRecordRepository(connection: String) {
 
-  def getRecords(): List[BluetoothRecord] = {
+  def getRecords(): String = {
 
     Class.forName("org.sqlite.JDBC");
-    val conn:Connection = DriverManager.getConnection("jdbc:sqlite:BlutTooth73.db")
+    val conn:Connection = DriverManager.getConnection(connection)
     val stat:Statement = conn.createStatement()
     val rs: ResultSet = stat.executeQuery("select * from DataIn;")
 
