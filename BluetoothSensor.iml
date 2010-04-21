@@ -28,9 +28,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.scala-lang:scala-library:2.7.7" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.apache.felix:javax.servlet:1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.xerial:sqlite-jdbc:3.6.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest:1.0" level="project" />
   </component>
 </module>
 
