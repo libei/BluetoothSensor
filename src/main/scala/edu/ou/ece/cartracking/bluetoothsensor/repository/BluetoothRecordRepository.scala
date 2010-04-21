@@ -9,7 +9,7 @@ class BluetoothRecordRepository(connection: String) {
     Class.forName("org.sqlite.JDBC");
     val conn:Connection = DriverManager.getConnection(connection)
     val stat:Statement = conn.createStatement()
-    val rs: ResultSet = stat.executeQuery("select * from DataIn;")
+    val rs: ResultSet = stat.executeQuery("select * from DataIn")
 
     while (rs.next()) {
 //      System.out.println("UnitTime" + rs.getInt("UnixTime"));
@@ -19,6 +19,7 @@ class BluetoothRecordRepository(connection: String) {
 //      System.out.println("job = " + rs.getString("occupation"));
     }
     rs.close()
+    conn.close()
     null
 
   }

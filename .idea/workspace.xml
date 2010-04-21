@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b2af30c2-e640-4ba0-b9f4-19b724847607" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BluetoothSensor.iml" afterPath="$PROJECT_DIR$/BluetoothSensor.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala" afterPath="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/domain/BluetoothRecord.scala" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala" />
     </list>
     <ignored path="BluetoothSensor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="81" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.3597561">
+            <state line="34" column="52" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothRecordRepository.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BluetoothRecordRepository.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="22" column="26" selection-start="776" selection-end="776" vertical-scroll-proportion="0.9274448">
               <folding />
             </state>
           </provider>
@@ -126,7 +121,7 @@
       <file leaf-file-name="BluetoothRecordRepositorySpec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="297" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="14" column="36" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +139,7 @@
       <file leaf-file-name="BluetoothRecordsBuilderSpec.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilderSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="15" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="263" selection-end="293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,10 +216,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilderSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilder.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala" />
       </list>
     </option>
   </component>
@@ -717,21 +712,21 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18247126" sideWeight="0.5375171" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22988506" sideWeight="0.5375171" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45293316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18247126" sideWeight="0.5375171" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30747128" sideWeight="0.5375171" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45293316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -747,7 +742,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first time for xml generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="accessing sqlite" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -765,6 +760,7 @@
     <MESSAGE value="add servlet" />
     <MESSAGE value="add jetty support, actually it can run!!" />
     <MESSAGE value="add first time for xml generator" />
+    <MESSAGE value="accessing sqlite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -785,34 +781,40 @@
         <state line="54" column="21" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="297" selection-end="308" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilder.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="20" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilderSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="81" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.3597561">
+        <state line="34" column="52" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordsBuilderSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="263" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepositorySpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/ou/ece/cartracking/bluetoothsensor/repository/BluetoothRecordRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="776" selection-end="776" vertical-scroll-proportion="0.9274448">
           <folding />
         </state>
       </provider>
