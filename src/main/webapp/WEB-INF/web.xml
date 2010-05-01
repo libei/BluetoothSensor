@@ -9,6 +9,10 @@
         <display-name>BluetoothSensor</display-name>
         <description>no description</description>
         <servlet-class>edu.ou.ece.cartracking.bluetoothsensor.servlet.SensorServlet</servlet-class>
+        <init-param>
+            <param-name>dbpath</param-name>
+            <param-value>/home/bei/Projects/BluetoothSensor/src/test/resources/BlueTooth73.db</param-value>
+        </init-param>        
     </servlet>
     <servlet-mapping>
         <servlet-name>BluetoothSensor</servlet-name>
