@@ -9,11 +9,10 @@ class SensorServlet extends HttpServlet {
   private val logger: Logger = Logger.getLogger(getClass)
 
   override def doGet(req: HttpServletRequest, resp: HttpServletResponse) = {
-    resp.setContentType("text/html");
+    resp.setContentType("text/xml");
     val dbPath = getInitParameter("dbpath")
     logger.debug("database file: " + dbPath)
-    resp.getWriter.append("database file: " + dbPath)
-    val repo = new BluetoothRecordRepository(dbPath)
+    val repo = new BluetoothRecordRepository("jdbc:sqlite:" + dbPath)
     val start = req.getParameter("start").toLong
     val end = req.getParameter("end").toLong
     logger.debug("start: " + start + " end: " + end)

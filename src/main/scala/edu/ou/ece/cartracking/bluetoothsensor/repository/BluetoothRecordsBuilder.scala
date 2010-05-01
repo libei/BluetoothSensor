@@ -17,7 +17,7 @@ object BluetoothRecordsBuilder {
   }
 
   def toXML: String = {
-    val res = xml
+    val res = """<?xml version="1.0"?>""" + xml
     xml = ""
     res
   }

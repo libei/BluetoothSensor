@@ -13,7 +13,7 @@ class BluetoothRecordsBuilderSpec extends FlatSpec with ShouldMatchers {
 
     BluetoothRecordsBuilder.appendTag("records")
     BluetoothRecordsBuilder.appendClosingTag("records")
-    BluetoothRecordsBuilder.toXML should equal ("<records></records>")
+    BluetoothRecordsBuilder.toXML should equal ("""<?xml version="1.0"?><records></records>""")
 
   }
 
@@ -23,7 +23,7 @@ class BluetoothRecordsBuilderSpec extends FlatSpec with ShouldMatchers {
     BluetoothRecordsBuilder.appendElement("MacAdd", "HD:22:FD")
     BluetoothRecordsBuilder.appendClosingTag("record")
 
-    BluetoothRecordsBuilder.toXML should equal("<record><UnitTime>12345</UnitTime><MacAdd>HD:22:FD</MacAdd></record>")
+    BluetoothRecordsBuilder.toXML should equal("""<?xml version="1.0"?><record><UnitTime>12345</UnitTime><MacAdd>HD:22:FD</MacAdd></record>""")
   }
 
 }
